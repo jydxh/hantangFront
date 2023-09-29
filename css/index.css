@@ -1,0 +1,270 @@
+/*banner部分*/
+.banner{
+	width: 100%;
+	height: 449px;
+	background: url(../images/banner-bg.png);
+}
+.banner-bd{
+	width: 1000px;
+	height: 449px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+
+
+.line1{
+	margin:48px auto;
+}
+.focus{
+	width: 373px;
+	height: 278px;
+	border:1px solid #d9d9d9;
+	float: left;
+	padding: 1px;
+	position: relative;
+}
+.focus div{
+	width:373px;
+	height: 278px;
+	position: relative;
+	overflow: hidden;
+}
+.focus ul{
+	width:2000px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.focus ul li{
+	float: left;
+	position: relative;
+}
+.focus ul li p{
+	position: absolute;
+	left:0;
+	bottom: 0;
+	width: 100%;
+	height: 30px;
+	background: rgba(0,0,0,0.5);
+	line-height: 30px;
+	box-sizing: border-box;
+	padding-left: 10px;
+	color: #fff;
+}
+.focus ol{
+	width: 72px;
+	height: 5px;
+	position: absolute;
+	right: 12px;
+	bottom: 12px;
+}
+.focus ol li{
+	width: 14px;
+	height: 5px;
+	border-radius: 5px;
+	background: #fff;
+	margin-right: 4px;
+	float: left;
+	cursor: pointer;
+}
+.focus ol li.current{
+	background: #cc0f0f;
+	
+}
+.info{
+	width: 565px;
+	height: 282px;
+	float: right;
+}
+.info-hd{
+	height: 30px;
+	border-bottom: 1px solid #DDD;
+}
+.info-hd h3,.busi-hd h3{
+	font-size: 20px;
+	font-weight: normal;
+	color: #333;
+	float: left;
+}
+.info-hd h3 span,.busi-hd h3 span{
+	font: 14px arial;
+	color: #82764e;
+}
+.info-hd a{
+	float: right;
+	font-size: 12px;
+}
+.info-bd{
+	margin-top: 12px;
+}
+.info-bd li{
+	line-height: 30px;
+	height: 30px;
+	border-bottom: 1px dotted #ccc;
+}
+.info-bd a{
+	float: left;
+	font-size: 14px;
+}
+.info-bd span{
+	float: right;
+	font:12px/30px "宋体";
+}
+.line2{
+	padding-bottom: 40px;
+	background: url(../images/banner-bg.png);
+}
+.busi-hd{
+	padding-top: 10px;
+	height: 36px;
+	border-bottom: 1px solid #bcbabb;
+}
+.busi-bd{
+	margin-top: 38px;
+}
+.busi-bd li{
+	float: left;
+	border:1px dotted #b9b8b4;
+	transition: all .2s linear;
+	position: relative;
+	margin-right: 10px;
+}
+.busi-bd li.lastbz{
+	margin-right: 0;
+	float: right;
+}
+.busi-bd li:hover{
+	box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+	transform: translate3d(0, -3px, 0);
+	border:1px solid #999;
+}
+.busi-bd li .shadow{
+	width: 240px;
+	height: 240px;
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.circle-icon{
+	width: 90px;
+	height: 90px;
+	background: #fff url(../images/btn1.png) no-repeat center;
+	position: absolute;
+	left:50%;
+	top:50%;
+	margin-left: -45px;
+	margin-top: -45px;
+	border-radius: 50%;
+}
+.twobz .circle-icon{
+	background-image: url(../images/btn2.png);
+}
+.threebz .circle-icon{
+	background-image: url(../images/btn3.png);
+}
+.lastbz .circle-icon{
+	background-image: url(../images/btn4.png);
+}
+.busi-bd li p{
+	position: absolute;
+	width: 100%;
+	height: 50px;
+	font:20px/50px "微软雅黑";
+	color: #fff;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+	
+}
+.line3{
+	margin:40px auto;
+}
+.partner-bd{
+
+	position: relative;
+	overflow: hidden;
+	height: 80px;
+}
+.partner-bd ul{
+	width: 5000px;
+	position: absolute;
+	top:30px;
+	left:0;
+	height: 40px;
+}
+.partner-bd li{
+	float: left;
+	margin-right: 16px;
+	border:1px solid #ccc;
+}
+.partner-bd li img{
+	width: 125px;
+	height: 38px;
+}
+.partner-bd-box{
+	height: 80px;
+}
+
+/*轮播图*/
+.banner-bd{
+	position: relative;
+	overflow: hidden;
+}
+.banner ul{
+	position: relative;
+	z-index:1;
+}
+.banner ul li{
+	position: absolute;
+	left:0;
+	top: 0;
+}
+.banner ol{
+	position: absolute;
+	left:0;
+	bottom: 0;
+	z-index:2;
+	width: 100%;
+	height: 20px;
+	background: rgba(255,255,255,0.3);
+	padding-top: 9px;
+	border-top: 1px solid #fff;
+	text-align: center;
+	font-size: 0;
+}
+.banner ol li{
+	width: 13px;
+	height: 13px;
+	border-radius: 50%;
+	display: inline-block;
+	margin:0 4px;
+	cursor: pointer;
+	background: rgba(255,255,255,0.8);
+}
+.banner ol li.current{
+	background: #f40;
+}
+.banner span{
+	width: 40px;
+	height: 70px;
+	background: url(../images/arr.png) no-repeat left top;
+	position: absolute;
+	top:50%;
+	margin-top:-35px;
+	z-index:2;
+	cursor: pointer;
+	opacity: 0.5;
+	transition: all 0.3s;
+}
+.banner span:hover{
+	opacity: 1;
+}
+.banner .left{
+	left: -40px;
+}
+.banner .right{
+	right: -40px;
+	background-position: right top;
+}
